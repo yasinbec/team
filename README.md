@@ -8,14 +8,14 @@ Check out www.jenaldesign.com/github
 These is simple team viewer plugin for jquery
 
 Add CSS & JS to your header
-<!--
+```
 <script type="text/javascript" src="team.js"></script>
 <link rel="stylesheet" type="text/css" href="team.css">
--->
+```
 
 and Magic words
 
-<!--
+```
 <script type="text/javascript">
     jQuery(document).ready( function($) {
 		$('#team').test({
@@ -26,7 +26,7 @@ and Magic words
 	});
 	
 </script>
--->
+```
 
 margin: between images. its important for slide calculation, default is 10
 image: circle, border-radius
