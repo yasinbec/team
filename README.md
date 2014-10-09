@@ -3,7 +3,7 @@ team
 
 Jquery Team Viewer v1.0
 
-Check out www.jenaldesign.com/github
+Demo = Check out www.jenaldesign.com/github
 
 These is simple team viewer plugin for jquery
 
