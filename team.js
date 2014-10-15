@@ -1,4 +1,4 @@
-// Team Plugin v1.0.0 for jQuery
+// Team Plugin v1.1.0 for jQuery
 // =============
 // Author: Ali Beceren
 // Created: 2/14/2011
@@ -7,11 +7,10 @@
 // Description: Creates Team profiles 
 
 (function($) {
-
-	$.fn.team = function(options) {
+	
+	$.fn.team = function(options) {		
 		
-		// Settings
-		
+		// Settings	
 		var settings = $.extend({
 			margin       : 10,
 			image        : null,
@@ -32,29 +31,32 @@
 			
 		}
 		
-		var total= $('li').length;
+		$(this).addClass( "teamviewer" );
+
+		
+		var total= $('.teamviewer li').length;
 					
 			// Li add class
-			$( "li" ).addClass(function( index ) {
+			$( ".teamviewer li" ).addClass(function( index ) {
 				return "team-" + index;
 			});
 			// Button add class
-			$( ".team-click" ).addClass(function( index ) {
+			$( ".teamviewer .team-click" ).addClass(function( index ) {
 				return "team-overlay-" + index;
 			});
 
 			// Description add class
-			$( ".desc" ).addClass(function( index ) {
+			$( ".teamviewer .desc" ).addClass(function( index ) {
 				return "team-desc-" + index;
 			});
 			
-			$( ".desc .close" ).addClass(function( index ) {
+			$( ".teamviewer .desc .close" ).addClass(function( index ) {
 				return "close-" + index;
 			});
 							
-			$( "li" ).each( function(index) {
+			$( ".teamviewer li" ).each( function(index) {
 				
-				var position = ($(".team-" + index).offset().left - $('#team').offset().left)-teammargin;
+				var position = ($(".teamviewer .team-" + index).offset().left - $('.teamviewer').offset().left)-teammargin;
 				
 				//console.log(position);
 				
