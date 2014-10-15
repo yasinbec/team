@@ -18,7 +18,7 @@ and Magic words
 ```
 <script type="text/javascript">
     jQuery(document).ready( function($) {
-		$('#team').test({
+		$('#team').team({
 			margin		: 10,
 			image		: 'circle',
 			radius      : 10
