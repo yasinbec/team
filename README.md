@@ -93,6 +93,7 @@ radius: default 10, if image is circle
                 </span>
             </div>
         </li>
-<ul>
+        </ul>
+
 
 Enjoy and please let me know
