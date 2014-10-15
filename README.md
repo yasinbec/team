@@ -97,3 +97,9 @@ radius: default 10, if image is circle
 
 
 Enjoy and please let me know
+
+Future Upgrades:
+
+1) Depends on width horizontal scroll
+2) Responsive design
+3) Different Templates
