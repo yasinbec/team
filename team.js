@@ -8,7 +8,7 @@
 
 (function($) {
 
-	$.fn.test = function(options) {
+	$.fn.team = function(options) {
 		
 		// Settings
 		
